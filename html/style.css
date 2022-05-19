@@ -1,0 +1,19 @@
+.center {
+    text-align: center;
+    background-color: rgb(1, 1, 1);
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.ques {
+    text-align: center;
+    font-size: 30px;
+    top: 0;
+    left: 0;
+}
+
+body {
+    width: 80%;
+    top: 0;
+    position: absolute;
+}
