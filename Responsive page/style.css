@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #faf7f6;
+    
+    
+}
+.main-bg{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form {
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    background: url("/bg-intro-desktop.png") repeat #ee7354;
+}
+
+.one{
+    display: grid;
+    align-content: center;   
+    width: 50%;
+    height: 80vh;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    /* margin-right: 2.5em;
+    margin-left: 6em;
+    padding-right: 1vw; */
+    color: #f1f1f1;
+}
+.two {
+
+    width: 50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-left: 3rem;
+    /* margin-right: 7em;
+    margin-top: 2em; */
+}
+
+.btn-one{
+    background-color: #0e1079;
+    width: 100%;
+    color: rgb(252, 251, 249);
+    padding: 0.9em;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+
+
+.btn-two{
+    background-color: #098f10;
+    width: 100%;
+    color: rgb(252, 251, 249);
+    padding: 0.9em;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+    font-size:x-small;
+    border-radius: 0.2em;
+}
+
+input[type=text],
+input[type=password] {
+    width: 24vw;
+    margin: 10px 0;
+    padding: 0.8em 0.8em;
+    display: inline-block;
+    border: 1px solid rgb(238, 239, 247);
+    box-sizing: border-box;
+    font-size: x-small;
+}
+
+input:active{
+        border-color: black;
+    }
+
+button:hover {
+    opacity: 0.7;
+}
+
+ .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+ }
+
+form {
+    border: 3px solid #f1f1f1;
+    width: 100%;
+    
+    text-align: center;
+}
+
+strong{
+    font-size: xx-small;
+    color: red;
+}
+
+label{
+    font-size:xx-small;
+}
+
+
+@media (max-width: 500px) {
+    .main-form{
+        flex-direction: column;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        padding: 3rem;
+    }
+
+    .one{
+        width: 100%;
+            margin: 5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+    }
+     .two{
+        width: 100%;
+        margin: 2rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    .container{
+        width: 100%;
+        flex-direction: column;
+        
+    }
+  
+
+}
