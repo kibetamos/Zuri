@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+main{
+    width: 50%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    flex-direction: row;
+}
+div{
+    width: 33.33333%;
+}
+.sedans{
+    padding: 3% 5%;
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+.suvs{
+    padding: 3% 5%;
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    padding: 3% 5%;
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+img{
+    margin-bottom: 20%;
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    margin-bottom: 20%;
+}
+p{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-bottom: 20%;
+}
+input{
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 30%;
+    margin-bottom: 20%;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+#sedans{
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+}
+#suvs{
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+}#luxury{
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+}
+#sedans:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+#suvs:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+#luxury:hover{
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+#grid{
+    flex-direction: column;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(246, 91%, 46%);
+    padding: 20px 100px;
+    cursor: pointer;
+}
+#grid:hover{
+    opacity: 0.5;
+}
+.grid{
+    margin: -200px 37%;
+}
